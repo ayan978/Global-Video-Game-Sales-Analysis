@@ -6,7 +6,7 @@ This project performs an end-to-end exploratory data analysis (EDA) and predicti
 
 ## Dataset
 
-- **Source**: [Insert dataset source if public, or say “Kaggle/Provided”]
+- **Source**: https://www.kaggle.com/datasets/gregorut/videogamesales
 - **Description**: Contains records of over 16,000 video games with features including:
   - Name, Platform, Year of Release
   - Genre, Publisher, Critic and User Scores
@@ -54,7 +54,7 @@ This project performs an end-to-end exploratory data analysis (EDA) and predicti
   - Critic and User Scores
 - **Evaluation Metrics**:
   - R² Score, RMSE, MAE
-- **Best Model**: [Insert your best-performing model here]
+- **Best Model**: RandomForestRegressor
 
 ---
 
