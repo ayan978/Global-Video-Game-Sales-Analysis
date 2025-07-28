@@ -30,26 +30,26 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("🎮 Total Sales by Platform")
-    st.image("images/sales_by_platform.png", use_column_width=True)
+    st.image("images/sales_by_platform.png", use_container_width=True)
 
 with col2:
     st.subheader("🧩 Total Sales by Genre")
-    st.image("images/sales_by_genre.png", use_column_width=True)
+    st.image("images/sales_by_genre.png", use_container_width=True)
 
 # ========== Row 2: Top Publishers & Sales Over Years ==========
 col3, col4 = st.columns(2)
 
 with col3:
     st.subheader("🏢 Top 10 Publishers by Global Sales")
-    st.image("images/top_publishers.png", use_column_width=True)
+    st.image("images/top_publishers.png", use_container_width=True)
 
 with col4:
     st.subheader("📈 Global Sales Over the Years")
-    st.image("images/sales_by_year.png", use_column_width=True)
+    st.image("images/sales_by_year.png", use_container_width=True)
 
 # ========== Row 3: Full-Width Genre Trend ==========
 st.subheader("📉 Genre Trends Over Time")
-st.image("images/genre_over_time.png", use_column_width=True)
+st.image("images/genre_over_time.png", use_container_width=True)
 
 # Footer
 st.markdown("---")
