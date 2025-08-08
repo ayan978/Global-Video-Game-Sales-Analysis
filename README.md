@@ -1,10 +1,10 @@
-# 🎮 Global Video Game Sales Analysis
+# Global Video Game Sales Analysis
 
 This project performs an end-to-end exploratory data analysis (EDA) and predictive modeling on a global video game sales dataset. The objective is to uncover insights about sales trends across platforms, genres, and regions, and to build a machine learning model that can predict global sales based on various game attributes.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [Kaggle - Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales)
 - **Size**: ~16,500 records
@@ -17,7 +17,7 @@ This project performs an end-to-end exploratory data analysis (EDA) and predicti
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Clean and preprocess the dataset
 - Explore trends in sales by genre, platform, publisher, year, and region
@@ -27,7 +27,7 @@ This project performs an end-to-end exploratory data analysis (EDA) and predicti
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 - Removed missing values and duplicates
 - Standardized column formats
@@ -36,7 +36,7 @@ This project performs an end-to-end exploratory data analysis (EDA) and predicti
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The dataset was explored using visual and statistical methods to understand market dynamics.
 
@@ -53,7 +53,7 @@ Key observations:
 
 ---
 
-## 🤖 Predictive Modeling
+## Predictive Modeling
 
 Three models were trained and evaluated:
 1. **Linear Regression** – Baseline model
@@ -71,7 +71,7 @@ Three models were trained and evaluated:
 
 ---
 
-## 📈 Results & Insights
+## Results & Insights
 
 - The final model explained ~83% of the variance in global sales.
 - Sales performance is highly influenced by platform, genre, and critic scores.
@@ -79,7 +79,7 @@ Three models were trained and evaluated:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ├── Global_Video_Game_Sales_Analysis.ipynb
 ├── vgsales.csv
@@ -91,7 +91,7 @@ Three models were trained and evaluated:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
